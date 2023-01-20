@@ -1,4 +1,4 @@
-﻿namespace Host_File_Editor
+﻿namespace Hosts_File_Editor
 {
     partial class MainForm
     {
@@ -343,7 +343,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Host_File_Editor.Properties.Resources.logo;
+            this.pictureBox1.Image = global::Hosts_File_Editor.Properties.Resources.logo;
             this.pictureBox1.Location = new System.Drawing.Point(12, 43);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";

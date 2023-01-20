@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Host_File_Editor
+namespace Hosts_File_Editor
 {
     static class Program
     {

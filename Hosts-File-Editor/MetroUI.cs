@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Host_File_Editor
+namespace Hosts_File_Editor
 {
     class MetroUI
     {

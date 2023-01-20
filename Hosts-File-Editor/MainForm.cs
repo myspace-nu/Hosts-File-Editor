@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Host_File_Editor
+namespace Hosts_File_Editor
 {
     public partial class MainForm : Form
     {
@@ -203,7 +203,7 @@ namespace Host_File_Editor
                 CustomControls.RJControls.RJButton deletebtn = new CustomControls.RJControls.RJButton();
                 deletebtn.Size = new Size(25, 25);
                 deletebtn.Location = new Point(pnl.Width - 90, 10);
-                deletebtn.Image = Host_File_Editor.Properties.Resources.delete;
+                deletebtn.Image = Hosts_File_Editor.Properties.Resources.delete;
                 MetroUI.styleControl(deletebtn);
                 deletebtn.BackColor = MetroUI.colorBackground;
                 deletebtn.FlatAppearance.MouseOverBackColor = MetroUI.colorBackground;
@@ -212,7 +212,7 @@ namespace Host_File_Editor
                 CustomControls.RJControls.RJButton editbtn = new CustomControls.RJControls.RJButton();
                 editbtn.Size = new Size(25, 25);
                 editbtn.Location = new Point(pnl.Width - 120, 10);
-                editbtn.Image = Host_File_Editor.Properties.Resources.edit;
+                editbtn.Image = Hosts_File_Editor.Properties.Resources.edit;
                 MetroUI.styleControl(editbtn);
                 editbtn.BackColor = MetroUI.colorBackground;
                 editbtn.FlatAppearance.MouseOverBackColor = MetroUI.colorBackground;
