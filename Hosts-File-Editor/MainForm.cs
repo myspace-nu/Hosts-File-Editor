@@ -31,6 +31,12 @@ namespace Hosts_File_Editor
 
         public MainForm()
         {
+            int numInstances = 0;
+            foreach (System.Diagnostics.Process p in System.Diagnostics.Process.GetProcessesByName(System.IO.Path.GetFileNameWithoutExtension(System.Reflection.Assembly.GetEntryAssembly().Location)))
+            {
+                if (System.Diagnostics.Process.GetCurrentProcess().SessionId == p.SessionId) numInstances++;
+            }
+            if (numInstances > 1) System.Environment.Exit(1);
             InitializeComponent();
         }
         private void MainForm_Load(object sender, EventArgs e)
